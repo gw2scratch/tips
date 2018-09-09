@@ -21,7 +21,7 @@ result = re.sub('<scr-tip.*?usefulness=[\'"](.*?)[\'"].*?importance=[\'"](.*?)[\
             <br>
             Importance: \2
         </div>
-        <p class="card-header-title">\3</p>
+        <div class="card-header-title">\3</div>
         <a class="card-header-icon card-toggle">
              Detailed description&nbsp;<i class="fas fa-angle-down"></i>
         </a>

@@ -69,7 +69,7 @@ h4 {
 				</scr-tip>
 				-->
 
-				<h3>Newcomer Tips</h3>
+				<h3>Beginner Tips</h3>
 				<scr-tip usefulness="5" importance="5">
 					<tip-title>Defiance bars</tip-title>
 					<tip-desc>
@@ -81,24 +81,44 @@ h4 {
 						skills.
 						</p>
 
+						<figure>
+							<img src="images/breakbar_teal.jpg" alt="Damageable defiance bar" />
+							<figcaption>A damageable defiance bar</figcaption>
+						</figure>
+
 						<p>
-						When the bar is teal, using crowd control skills damages the bar. Depleting it ("breaking the enemy") it will stun the
-						enemy temporarily and usually apply a buff that increases incoming damage to the enemy. The bar
-						may be slowly regenerating while it is teal.
+						When the bar is teal, using crowd control skills damages the bar. Depleting it – <em>breaking the
+							enemy</em> – will stun the enemy temporarily and usually apply a buff that increases
+						incoming damage to the enemy. The bar may be slowly regenerating while it is teal.
 						</p>
 
-						<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/breakbar_teal_damaged.jpg" alt="Damaged defiance bar" />
+							<figcaption>A defiance bar after the enemy was hit by a crowd control skill</figcaption>
+						</figure>
+
 						<p>
 						When the bar is orange and filling up, it is recharging. The enemy is still immune and using
-						crowd control skills now will be a waste. Once it fills up, the bar will become teal again and
-						you can break the enemy again.
+						crowd control skills now will be a waste as they are ignored. Once it fills up, the bar will
+						become teal again and you can break the enemy again.
 						</p>
 
-						<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/breakbar_regenerating.jpg" alt="Recharging defiance bar" />
+							<figcaption>A defiance bar shortly after the enemy was broken, starting to recharge. You can
+								see the buff indicating the enemy is now stunned.</figcaption>
+						</figure>
+
 						<p>
 						When the bar is gray it is locked and crowd control effects are ignored as long as it is in that
 						state.
 						</p>
+
+						<figure>
+							<img src="images/breakbar_locked.jpg" alt="Locked defiance bar" />
+							<figcaption>A locked defiance bar. This enemy is completely immune to crowd control while it
+								is not doing its Overhead Smash attack.</figcaption>
+						</figure>
 
 						<p>
 						What is a crowd control effect?
@@ -112,6 +132,9 @@ h4 {
 						<p>
 						Soft CC are conditions which damage the defiance bar over time, each has a good reason to do so,
 						they would be too strong if they actually affected the boss enemy.
+						</p>
+
+						<!-- TODO: Icons for conditions -->
 						<table>
 							<thead>
 								<tr><th>Condition</th><th>Why is it ignored</th><th>Defiance bar damage per second</th>
@@ -128,9 +151,6 @@ h4 {
 							<tr><td>Cripple</td><td>Slows you down</td><td>15</td></tr>
 							</tbody>
 						</table>
-						<!-- TODO: Icons -->
-						</p>
-
 					</tip-desc>
 				</scr-tip>
 
@@ -156,17 +176,27 @@ h4 {
 					<tip-title>Deposit to storage</tip-title>
 					<tip-desc>
 						<p>The account vault not only contains a bank that allows you to store any items, it also
-						contains a <em>Material Storage</em> that can by default store up to 250 of each material (may
-						be increased by purchasing Storage Expanders).</p>
+						contains a <em>Material Storage</em> that can by default store up to 250 of each material
+						(may be increased by purchasing Storage Expanders).</p>
+
 						<p>Unlike the bank, any materials in your inventory can be deposited to the storage from any
-						place in the world. If you right-click a material, you can then click <em>Deposit Material</em>
-						to deposit it to the Material Storage. If the option is gray, then your material storage for
-						this item is full.</p>
-						<!-- TODO: Add screenshot -->
+						place in the world. If you right-click a material, you can then click <em>Deposit
+						Material</em> to deposit it to the Material Storage. If the option is gray, then your
+						material storage for this item is full.</p>
+
+						<figure>
+							<img src="images/deposit_material.jpg" alt="Deposit material option" />
+							<figcaption>The option to deposit a material to material storage.</figcaption>
+						</figure>
+
 						<p>You can also deposit all materials by clicking the gear icon in the top right of the
 						inventory and selecting <em>Deposit All Materials</em>. This will ignore items in invisible
 						bags and items that won't fit into the storage.</p>
-						<!-- TODO: Add screenshot -->
+
+						<figure>
+							<img src="images/deposit_all.jpg" alt="Deposit all materials option" />
+							<figcaption>The option to deposit all materials in inventory.</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -177,6 +207,7 @@ h4 {
 							If you hold Shift and left-click on an item, a hoverable link will be inserted in your
 							chatbox. If you hold Ctrl instead, a message containing only the link will be sent.
 						</p>
+						<!-- TODO: Screenshot -->
 					</tip-desc>
 				</scr-tip>
 
@@ -187,19 +218,20 @@ h4 {
 							If you hold Alt while dragging items in your inventory, you will be prompted to input a
 							stack size, this way you can split stacks into multiple.
 						</p>
+						<!-- TODO: Screenshot -->
 					</tip-desc>
 				</scr-tip>
 
 
 				<h3>General Tips</h3>
 				<scr-tip usefulness="5" importance="3">
-					<tip-title>Map instances and LFG system</tip-title>
+					<tip-title>Map instances and the&nbsp;<abbr title="Looking for Group">LFG</abbr>&nbsp;system</tip-title>
 					<tip-desc>
 						<p>
 						With the introduction of the megaserver system, worlds are now only a WvW distinction.
 						Instead, there are now multiple instances of the same map that anyone from the same region can
 						join. The regions being EU and NA. While there is a Chinese version of the game, that one is
-						completely separated, including the trading post.
+						completely separated, including the trading post and contains more pay-to-win features.
 						</p>
 						<p>
 						If you can't find your friend, they are likely in a different instance. If you are both in the
@@ -207,6 +239,12 @@ h4 {
 						their map. That will move you to their instance. You can see the IP address of the server for
 						the current instance by using the <code>/ip</code> command.
 						</p>
+
+						<figure>
+							<img src="images/ip.jpg" alt="The result of typing /ip" />
+							<figcaption>The ip address of an instance</figcaption>
+						</figure>
+
 						<p>
 						If an instance gets too small, everyone gets a prompt to volunteer to leave (and get a bonus
 						buff) or get kicked in an hour. If an instance is quite full, players will instead join another,
@@ -221,7 +259,11 @@ h4 {
 						people into an empty map to help with events and this way you can participate even if your map
 						instance was hopelessly empty.
 						</p>
-						<!-- TODO: Screenshot -->
+
+						<figure>
+							<img src="images/lfg_interface.jpg" alt="The Looking for Group interface" />
+							<figcaption>The looking for group interface</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -253,18 +295,36 @@ h4 {
 				<scr-tip usefulness="5" importance="2">
 					<tip-title>Salvage All</tip-title>
 					<tip-desc>
-						Right-clicking on a salvaging kit or tool allows you to automatically salvage all items of
-						specified qualities.
-						<!-- TODO: Add screenshot -->
+						<div style="overflow: auto;">
+							<figure class="is-pulled-left">
+								<img src="images/salvage_all.jpg" alt="Salvage all options" />
+								<figcaption>The menu offered when right-clicking on a salvage kit</figcaption>
+							</figure>
+							Right-clicking on a salvaging kit or tool allows you to automatically salvage all items of
+							specified qualities.
+						</div>
 					</tip-desc>
 				</scr-tip>
 
 				<scr-tip usefulness="5" importance="1">
-					<tip-title>Open all containers in a stack</tip-title>
+					<tip-title>Opening all containers and using all consumables in a stack</tip-title>
 					<tip-desc>
-						Right-clicking on a stack of containers usually offers an option to Open all. This process will
-						stop if your inventory gets full.
-						<!-- TODO: Add screenshot -->
+						Right-clicking on a stack of containers or consumables usually offers an option to <em>Use
+							all</em>. This process will stop if your inventory gets full.
+						<div class="columns">
+							<div class="column">
+								<figure>
+									<img src="images/use_all.jpg" alt="Use all option" />
+									<figcaption>Opening all bags in a stack is offered in the right-click menu</figcaption>
+								</figure>
+							</div>
+							<div class="column">
+								<figure>
+									<img src="images/use_all_luck.jpg" alt="Consume all option" />
+									<figcaption>Consuming all luck in a stack is offered in the right-click menu</figcaption>
+								</figure>
+							</div>
+						</div>
 					</tip-desc>
 				</scr-tip>
 
@@ -324,7 +384,11 @@ h4 {
 						Hovering over the Point of Interest/Heart/Vista counts on the map shows unfinished ones on the
 						map or scouts in case you don't have the relevant part of the map discovered.
 
-						<!-- TODO: Add screenshot -->
+						<figure>
+							<img src="images/map_completion_hover.jpg" alt="Hovering above Point of Interested count in
+							map" />
+							<figcaption>Hovering over the Point of Interest count shows an undiscovered POI.</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -382,7 +446,10 @@ h4 {
 						window and just add the rewards to your inventory instantly. This does not work with any chests
 						with a selection of rewards.
 
-						<!-- TODO: Add screenshot -->
+						<figure>
+							<img src="images/reward_chests_hovered.jpg" alt="Reward chests" />
+							<figcaption>Right-clicking these chests puts the reward in the inventory instantly.</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -407,6 +474,11 @@ h4 {
 					<tip-desc>
 						Left-clicking on a commander icon on the minimap or on the world map will show you a context
 						menu that contains a <em>Join Squad</em> option.
+
+						<figure>
+							<img src="images/map_join_squad.jpg" alt="The Join Squad option" />
+							<figcaption>The Join Squad option</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -417,9 +489,9 @@ h4 {
 						<p><code>/join &lt;name&gt;</code> is a command for joining a party.</p>
 						<p>
 							These commands allow you to join a squad or a party if you specify either a character name
-							of any character of someone in the squad/party or their account name. You can use a
-							different character name than the character they are logged in now. The <code>/sqjoin</code>
-							command only works if the squad has a commander.
+							of someone in the squad/party or their account name. You can use a different character name
+							than the character they are logged in now. The <code>/sqjoin</code> command only works if
+							the squad has a commander.
 						</p>
 					</tip-desc>
 				</scr-tip>
@@ -443,6 +515,10 @@ h4 {
 				<scr-tip usefulness="3" importance="1">
 					<tip-title>The Mentoring Badge</tip-title>
 					<tip-desc>
+						<figure class="is-pulled-right">
+							<img src="images/mentor_tag.jpg" alt="The mentor tag" />
+							<figcaption>The mentor tag as it appears on the map</figcaption>
+						</figure>
 						<p>
 							One of the first Core Tyria masteries provides access to a mentor tag. This tag was intended
 							to be used to mark yourself as a mentor for new players. Outside of starting maps it is
@@ -453,20 +529,23 @@ h4 {
 						</p>
 						<p>
 							Please do not mislead new players in starting maps by using it there and then not helping
-							them.
+							them if they ask.
 						</p>
-						<!-- TODO: Screenshot -->
 					</tip-desc>
 				</scr-tip>
 
 				<scr-tip usefulness="3" importance="1">
-					<tip-title>Hovering over Trading Post total price</tip-title>
+					<tip-title>Hovering over Trading Post total price when selling</tip-title>
 					<tip-desc>
 						<p>
 						Hovering over the Total Price when selling an item will show you the <em>Estimated Profit</em>
-						of the transaction (which is in fact revenue).
+						of the transaction (which is in fact revenue). This is simply the total price after paying
+						listing and exchange fees.
 						</p>
-						<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/total_price_profit.jpg" alt="The Estimated Profit of a sale" />
+							<figcaption>The Estimated Profit appears when hovering over the price.</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -478,7 +557,10 @@ h4 {
 						the icon size. This fits more items on your screen, however it is rather resource intensive. The
 						compact mode can be turned off by repeating the process.
 						</p>
-						<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/compact_trading_post.jpg" alt="The Estimated Profit of a sale" />
+							<figcaption>The Estimated Profit appears when hovering over the price.</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -520,7 +602,7 @@ h4 {
 				<scr-tip usefulness="1" importance="1">
 					<tip-title>Stack your free Level 80 boosts in shared inventory slots</tip-title>
 					<tip-desc>
-						If you bought all expansions, you received multiple free shared inventory slots, each
+						If you bought multiple expansions, you received multiple free shared inventory slots, each
 						containing a Level 80 boost. If you don't want to use them yet, stack them in a single inventory
 						slot so that you can use the others for something else.
 					</tip-desc>
@@ -547,7 +629,10 @@ h4 {
 							of your screen. This may be useful in raids or in open world meta events when you want to
 							communicate how much health an enemy has left.
 						</p>
-						<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/health_percentage.jpg" alt="Health percentage shown on a health bar" />
+							<figcaption>Health percentage shown on a health bar</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -627,27 +712,6 @@ h4 {
 
 				<h3>Tricks</h3>
 
-				<scr-tip usefulness="3" importance="1">
-					<tip-title>Getting a mount below level 80</tip-title>
-					<tip-desc>
-						<p>
-							If you own the Path of Fire expansion and do not have any character that is level 80, you
-							can still unlock mounts, with Raptor being the by far the easiest one.
-						</p>
-						<p>
-							You will need a friend who has a level 80 character and Path of Fire as well to take you
-							through the first story instance of PoF. For this, your friend has to activate the chapter,
-							you have to be in a party with them and in the same instance in Lion's Arch. After they
-							enter the instance, you need to join them. Since you will be underleveled, you just want to
-							survive and make sure to unlock the mount in the village with raptors.
-						</p>
-						<p>
-							You will be unable to learn any masteries that improve your Raptor's abilities until you
-							have are level 80, but at least now you have a friend on your journey to level 80.
-						</p>
-					</tip-desc>
-				</scr-tip>
-
 				<scr-tip usefulness="3" importance="3">
 					<tip-title>Chat link codes</tip-title>
 					<tip-desc>
@@ -656,7 +720,7 @@ h4 {
 							by the text that can be hovered over. The codes look like this: <code>[&amp;AgHNSQEA]</code>.
 						</p>
 						<p>
-							The wiki has chat codes for most items, skins and skills that can be pasted into chat to
+							The wiki has chat codes for most items, skins and skills that can be pasted into the chat to
 							preview them. Linking something doesn't mean that you actually own it, you can even link
 							impossible items or amounts, such as this code: <code>[&amp;Av/2LQEA]</code>. You can
 							encounter waypoint codes on many websites and tools for Guild Wars 2 that you can simply
@@ -669,10 +733,31 @@ h4 {
 					</tip-desc>
 				</scr-tip>
 
+				<scr-tip usefulness="3" importance="1">
+					<tip-title>Unlocking a mount below level 80</tip-title>
+					<tip-desc>
+						<p>
+							If you own the Path of Fire expansion and do not have any character that is level 80, you
+							can still unlock mounts, with the Raptor being the by far the easiest one.
+						</p>
+						<p>
+							You will need a friend who has a level 80 character and Path of Fire as well to take you
+							through the first story instance of PoF. For this, your friend has to activate the chapter,
+							you have to be in a party with them and in the same instance in Lion's Arch. After they
+							enter the instance, you need to join them. Since you will be underleveled, you just want to
+							survive and make sure to unlock the mount in the village with raptors.
+						</p>
+						<p>
+							You will be unable to learn any masteries that improve your Raptor's abilities until you
+							are level 80, but at least now you have a friend on your journey to level 80.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
 				<h3>Interesting, but useless</h3>
 
 				<scr-tip usefulness="0" importance="0">
-					<tip-title>You can click on the endurance bar to dodge.</tip-title>
+					<tip-title>You can click on the endurance bar to dodge</tip-title>
 					<tip-desc>
 						<p>
 							Now you can dodge when you play without a keyboard...
@@ -681,11 +766,11 @@ h4 {
 				</scr-tip>
 
 				<scr-tip usefulness="0" importance="0">
-					<tip-title>When the endurance bar is refilled, a subtle sound effect is played.</tip-title>
+					<tip-title>When the endurance bar is refilled, a subtle sound effect is played</tip-title>
 					<tip-desc>
 						<p>
-							Now you know when you can dodge if you play blind (or what that annoying sound you never
-							knew what is from is).
+							Now you know when you can dodge if you play blind (or what is the source of that random
+							faint annoying sound).
 						</p>
 							<!-- TODO: Video -->
 					</tip-desc>
@@ -698,7 +783,10 @@ h4 {
 							Not only does this command open the LFG window, it also sets your presence status to
 							<em>Looking for Group</em> and shows an unique icon next to your name in the game.
 						</p>
-							<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/lfg_icon.jpg" alt="The Looking for Group icon" />
+							<figcaption>The Looking for Group icon</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -709,7 +797,10 @@ h4 {
 							These show how much time your spent on this character (and the total of all characters) or
 							how many times you have died on this character.
 						</p>
-							<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/age_deaths.jpg" alt="The result of /age and /deaths commands" />
+							<figcaption>The statistics from <code>/age</code> and <code>/deaths</code> commands</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -759,15 +850,16 @@ h4 {
 						<p>
 							A dps meter that shows you an estimate of damage per second in real time for yourself and
 							your party or squad. A great tool when you want to improve yourself.
-						</p>
-						<p>
 							Allows saving logs of encounters that can be later processed by other tools.
 						</p>
 						<p>
-							An addon that injects its code into Guild Wars 2. While it is currently allowed by ToS, it
-							is not supported by ArenaNet in any way.
+							An addon that injects its code into Guild Wars 2. While it currently only implements
+							features allowed by the ToS, it is not supported by ArenaNet in any way.
 						</p>
-						<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/arcdps.png" alt="The arcdps area statswindow" />
+							<figcaption>The area stats window showing damage per second of a squad fighting a raid boss</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -781,10 +873,13 @@ h4 {
 							so should be perfectly safe. Requires arcdps, is an addon to the addon.
 						</p>
 						<p>
-							An addon that injects its code into Guild Wars 2. While it is currently allowed by ToS, it
-							is not supported by ArenaNet in any way.
+							An addon that injects its code into Guild Wars 2. While it currently only implements
+							features allowed by the ToS, it is not supported by ArenaNet in any way.
 						</p>
-						<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/arcdps_buildtemplates.png" alt="The arcdps build templates window" />
+							<figcaption>The build templates menu</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -881,9 +976,12 @@ h4 {
 					<tip-desc>
 						<p>
 							It is possible to see the personal fractal level of other players in the LFG if you hover
-							over the <em>Fractals of the Mists</em> category.
+							over a <em>Fractals of the Mists</em> category.
 						</p>
-						<!-- TODO: Screenshot -->
+						<figure>
+							<img src="images/fractal_personal_level.jpg" alt="The personal fractal level of group members" />
+							<figcaption>The personal fractal level of the party members</figcaption>
+						</figure>
 					</tip-desc>
 				</scr-tip>
 
@@ -935,10 +1033,10 @@ h4 {
 				</scr-tip>
 
 				<scr-tip usefulness="3" importance="1">
-					<tip-title>If you are planning on making Legendary armor, start with Faction provisioners now</tip-title>
+					<tip-title>If you are planning on making Legendary armor, consider starting with Faction provisioners now</tip-title>
 					<tip-desc>
 						<p>
-							To craft one set of legendary armor, 300 <a
+							To craft one set of legendary armor 300 <a
 							href="https://wiki.guildwars2.com/wiki/Provisioner_Token">Provisioner Tokens</a> are needed. These are capped at
 							12 per day, with some more expensive to get than others. If you are planning to craft this
 							armor, you might want to start getting these now.
@@ -960,7 +1058,7 @@ h4 {
 
 				<h4>Samarog</h4>
 				<scr-tip usefulness="3" importance="3">
-					<tip-title>A thief can lockpick the door</tip-title>
+					<tip-title>A Thief can lockpick the door</tip-title>
 					<tip-desc>
 						<p>
 							If you have a thief in your group, they can lockpick the door that is before this fight.
