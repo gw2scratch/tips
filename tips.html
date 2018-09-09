@@ -24,6 +24,9 @@
 	display: flex;
 	align-items: center;
 }
+h4 {
+	margin-top: 10px;
+}
 		</style>
 	</head>
 	<body>
@@ -67,10 +70,70 @@
 				-->
 
 				<h3>Newcomer Tips</h3>
-				<scr-tip usefulness="5" importance="2">
-					<tip-title>World selection</tip-title>
-					<tip-desc>TODO: Worlds that are selected during account creation are only used in WvW...</tip-desc>
+				<scr-tip usefulness="5" importance="5">
+					<tip-title>Defiance bars</tip-title>
+					<tip-desc>
+						<p>
+						Defiance bars, also known as breakbars are most commonly found on champions and legendary
+						enemies. Appearing as a second bar under the enemies healthbar, it is damaged by using crowd
+						control effects (often abbreviated as <em>CC</em>). As it would make no sense to allow a boss to
+						be permanently stunned or blinded, this bar is the equivalent of a healthbar for crowd control
+						skills.
+						</p>
+
+						<p>
+						When the bar is teal, using crowd control skills damages the bar. Depleting it ("breaking the enemy") it will stun the
+						enemy temporarily and usually apply a buff that increases incoming damage to the enemy. The bar
+						may be slowly regenerating while it is teal.
+						</p>
+
+						<!-- TODO: Screenshot -->
+						<p>
+						When the bar is orange and filling up, it is recharging. The enemy is still immune and using
+						crowd control skills now will be a waste. Once it fills up, the bar will become teal again and
+						you can break the enemy again.
+						</p>
+
+						<!-- TODO: Screenshot -->
+						<p>
+						When the bar is gray it is locked and crowd control effects are ignored as long as it is in that
+						state.
+						</p>
+
+						<p>
+						What is a crowd control effect?
+						There are two types, "hard" effects, which damage the defiance bar instantly (e.g. Stun, Knockdown,
+						Daze...). These are effects that will stop you from attacking/moving completely, instantly. The
+						damage depends on the type and the duration. You find see the defiance bar damages and skills
+						for your class that are hard CC on the <a
+							href="https://wiki.guildwars2.com/wiki/Defiance_bar#Skill_details">wiki</a>.
+						</p>
+
+						<p>
+						Soft CC are conditions which damage the defiance bar over time, each has a good reason to do so,
+						they would be too strong if they actually affected the boss enemy.
+						<table>
+							<thead>
+								<tr><th>Condition</th><th>Why is it ignored</th><th>Defiance bar damage per second</th>
+							</thead>
+							<tbody>
+							<tr><td>Fear</td><td>You can't attack and move when you are feared</td><td>100</td></tr>
+							<tr><td>Taunt</td><td>You are forced to only attack one enemy with autoattacks</td><td>75</td></tr>
+							<tr><td>Immobilize</td><td>Stops you from moving</td><td>50</td></tr>
+							<tr><td>Slow</td><td>Slows you and your attacks</td><td>50</td></tr>
+							<tr><td>Chilled</td><td>Slows you and your cooldowns</td><td>33</td></tr>
+							<tr><td>Blinded</td><td>Causes you to miss</td><td>20</td></tr>
+							<tr><td>Weakness</td><td>Causes your hits to glance (50% damage), slows endurance
+							regeneration</td><td>20</td></tr>
+							<tr><td>Cripple</td><td>Slows you down</td><td>15</td></tr>
+							</tbody>
+						</table>
+						<!-- TODO: Icons -->
+						</p>
+
+					</tip-desc>
 				</scr-tip>
+
 
 				<scr-tip usefulness="5" importance="4">
 					<tip-title>Dodging and evading attacks</tip-title>
@@ -97,7 +160,7 @@
 						be increased by purchasing Storage Expanders).</p>
 						<p>Unlike the bank, any materials in your inventory can be deposited to the storage from any
 						place in the world. If you right-click a material, you can then click <em>Deposit Material</em>
-						to deposit it to the Material Storage. If the option is grey, then your material storage for
+						to deposit it to the Material Storage. If the option is gray, then your material storage for
 						this item is full.</p>
 						<!-- TODO: Add screenshot -->
 						<p>You can also deposit all materials by clicking the gear icon in the top right of the
@@ -129,19 +192,62 @@
 
 
 				<h3>General Tips</h3>
-				<scr-tip usefulness="5" importance="5">
-					<tip-title>Defiance Bars</tip-title>
-					<tip-desc>TODO</tip-desc>
-				</scr-tip>
-
 				<scr-tip usefulness="5" importance="3">
 					<tip-title>Map instances and LFG system</tip-title>
-					<tip-desc>TODO</tip-desc>
+					<tip-desc>
+						<p>
+						With the introduction of the megaserver system, worlds are now only a WvW distinction.
+						Instead, there are now multiple instances of the same map that anyone from the same region can
+						join. The regions being EU and NA. While there is a Chinese version of the game, that one is
+						completely separated, including the trading post.
+						</p>
+						<p>
+						If you can't find your friend, they are likely in a different instance. If you are both in the
+						same party or squad, you can right click on your friend and choose to <em>Join</em> them in
+						their map. That will move you to their instance. You can see the IP address of the server for
+						the current instance by using the <code>/ip</code> command.
+						</p>
+						<p>
+						If an instance gets too small, everyone gets a prompt to volunteer to leave (and get a bonus
+						buff) or get kicked in an hour. If an instance is quite full, players will instead join another,
+						potentially new instance when they enter the map. It is still possible to join players through a
+						party or squad. At some point, the map fill completely and it is also impossible to join through
+						that. At that point you can try spamming the join button, there is no reservation so when one
+						player leaves you can take their place.
+						</p>
+						<p>
+						The Looking for Group window is an interface for finding groups or squads. These may potentially
+						be in another instance and can be used to move to it. In fact, it is common to <em>taxi</em>
+						people into an empty map to help with events and this way you can participate even if your map
+						instance was hopelessly empty.
+						</p>
+						<!-- TODO: Screenshot -->
+					</tip-desc>
 				</scr-tip>
 
-				<scr-tip usefulness="4" importance="4">
-					<tip-title>Nourishment and utility consumables</tip-title>
-					<tip-desc>TODO</tip-desc>
+				<scr-tip usefulness="5" importance="4">
+					<tip-title>Food and utility consumables</tip-title>
+					<tip-desc>
+						<p>
+						Food and utilities are consumables that can be used to temporarily increase your stats. Eating
+						Food grants a Nourishment effect, using an Utility grants an Enhancement effect. You can only
+						have one of each at the same time, using another food/utility consumable will overwrite the effect.
+						</p>
+
+						<p>
+						The amount of stats gained from food is non-trivial and it is common decency to use food and
+						utilities in end-game content. The best food is usually rather expensive, but there are
+						typically cheaper variants.
+						</p>
+
+						<p>
+						There are also many very cheap foods that are a good choice for playing in open world. Check the <a
+							href="https://wiki.guildwars2.com/wiki/Food">wiki list of foods</a> and <a
+						    href="https://wiki.guildwars2.com/wiki/Utility_item">utilities</a> and see for yourself if
+					    any of those would be helpful to you. If you are leveling a character, you may be interested in
+					    the extra experience gain as well. Some foods offer a higher experience bonus than others.
+						</p>
+					</tip-desc>
 				</scr-tip>
 
 				<scr-tip usefulness="5" importance="2">
@@ -153,7 +259,7 @@
 					</tip-desc>
 				</scr-tip>
 
-				<scr-tip usefulness="5" importance="2">
+				<scr-tip usefulness="5" importance="1">
 					<tip-title>Open all containers in a stack</tip-title>
 					<tip-desc>
 						Right-clicking on a stack of containers usually offers an option to Open all. This process will
@@ -212,19 +318,8 @@
 					</tip-desc>
 				</scr-tip>
 
-				<scr-tip usefulness="3" importance="1">
-					<tip-title>Instantly opening reward chests</tip-title>
-					<tip-desc>
-						Right-clicking on a reward chest on the side of your screen will open them without showing any
-						window and just add the rewards to your inventory instantly. This does not work with any chests
-						with a selection of rewards.
-
-						<!-- TODO: Add screenshot -->
-					</tip-desc>
-				</scr-tip>
-
 				<scr-tip usefulness="4" importance="1">
-					<tip-title>Finding unfinished POI/Heart/Vista on the map by hovering.</tip-title>
+					<tip-title>Finding unfinished POI/Heart/Vista on the map by hovering</tip-title>
 					<tip-desc>
 						Hovering over the Point of Interest/Heart/Vista counts on the map shows unfinished ones on the
 						map or scouts in case you don't have the relevant part of the map discovered.
@@ -281,6 +376,17 @@
 				</scr-tip>
 
 				<scr-tip usefulness="3" importance="1">
+					<tip-title>Instantly opening reward chests</tip-title>
+					<tip-desc>
+						Right-clicking on a reward chest on the side of your screen will open them without showing any
+						window and just add the rewards to your inventory instantly. This does not work with any chests
+						with a selection of rewards.
+
+						<!-- TODO: Add screenshot -->
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="3" importance="1">
 					<tip-title>Right-clicking skill slots to select skills</tip-title>
 					<tip-desc>
 						You can right-click utility and elite skill slots to bring up the menu to swap to another skill.
@@ -315,15 +421,6 @@
 							different character name than the character they are logged in now. The <code>/sqjoin</code>
 							command only works if the squad has a commander.
 						</p>
-					</tip-desc>
-				</scr-tip>
-
-				<scr-tip usefulness="2" importance="1">
-					<tip-title>Glyphs can be removed from gathering tools</tip-title>
-					<tip-desc>
-						Right-clicking on a gathering tool with a Glyph will offer an option to <em>Remove Upgrade</em>.
-						Select this to get your Glyph back without having to swap in a different one or wait for the
-						tool to get depleted.
 					</tip-desc>
 				</scr-tip>
 
@@ -408,6 +505,15 @@
 							menus and will not move if your inventory is sorted. This allows you to safely store armor,
 							unidentified gear and similar items you may not want to accidentally destroy.
 						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="2" importance="1">
+					<tip-title>Glyphs can be removed from gathering tools</tip-title>
+					<tip-desc>
+						Right-clicking on a gathering tool with a Glyph will offer an option to <em>Remove Upgrade</em>.
+						Select this to get your Glyph back without having to swap in a different one or wait for the
+						tool to get depleted.
 					</tip-desc>
 				</scr-tip>
 
@@ -531,8 +637,8 @@
 						<p>
 							You will need a friend who has a level 80 character and Path of Fire as well to take you
 							through the first story instance of PoF. For this, your friend has to activate the chapter,
-							you have to be in a party and in the same instance in Lion's Arch. After they enter the
-							instance, you need to join them. Since you will be underleveled, you just want to
+							you have to be in a party with them and in the same instance in Lion's Arch. After they
+							enter the instance, you need to join them. Since you will be underleveled, you just want to
 							survive and make sure to unlock the mount in the village with raptors.
 						</p>
 						<p>
@@ -721,10 +827,11 @@
 				<h4>Ranger</h4>
 				<h4>Thief</h4>
 				<scr-tip usefulness="1" importance="1">
-					<tip-title>Daredevil Staff 3 in place</tip-title>
+					<tip-title>Using Daredevil Staff 3 without moving.</tip-title>
 					<tip-desc>
 						<p>
-							It is possible to jump and use the staff 3 skill at the same time to use it without moving.
+							It is possible press jump and 3 at the same time to use the skill without moving while still
+							evading and removing immobilize.
 						</p>
 					</tip-desc>
 				</scr-tip>
@@ -734,6 +841,40 @@
 				<h4>Mesmer</h4>
 
 				<h3>Fractals</h3>
+
+				<scr-tip usefulness="5" importance="5">
+					<tip-title>The <code>/gg</code> command</tip-title>
+					<tip-desc>
+						<p>
+							You can kill yourself by using the <code>/gg</code> command. This is used to reset
+							fights faster.
+						</p>
+						<p>
+							The commands <code>/resign</code>, <code>/concede</code>, <code>/surrender</code>,
+							<code>/forfeit</code>, <code>/qq</code> and <code>/ff</code> do the same thing.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="5" importance="5">
+					<tip-title>Using <code>/gg</code> to respawn at newest waypoint</tip-title>
+					<tip-desc>
+						<p>
+							Killing yourself is by far the fastest method to move to the current checkpoint if you are
+							behind other players. It is usually enough for one player to reach the checkpoint, others
+							can commit suicide to progress faster.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="5" importance="5">
+					<tip-title>Using <code>/gg</code> to reset cooldowns</tip-title>
+					<tip-desc>
+						<p>
+							If everybody is dead at the same time, cooldowns get reduced by a significant amount of time.
+						</p>
+					</tip-desc>
+				</scr-tip>
 
 				<scr-tip usefulness="1" importance="1">
 					<tip-title>Personal fractal level of other players</tip-title>
@@ -801,6 +942,102 @@
 							href="https://wiki.guildwars2.com/wiki/Provisioner_Token">Provisioner Tokens</a> are needed. These are capped at
 							12 per day, with some more expensive to get than others. If you are planning to craft this
 							armor, you might want to start getting these now.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<h4>Cairn the Indomitable</h4>
+				<scr-tip usefulness="1" importance="1">
+					<tip-title>Set Shaders to Medium or higher to see the rune on the platform</tip-title>
+					<tip-desc>
+						<p>
+							To see the rune that can be easily used to see if you are standing close enough to Cairn,
+							you need to have Shaders set to at least Medium. If your Shaders setting is lower, you will
+							only see a gray platform.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<h4>Samarog</h4>
+				<scr-tip usefulness="3" importance="3">
+					<tip-title>A thief can lockpick the door</tip-title>
+					<tip-desc>
+						<p>
+							If you have a thief in your group, they can lockpick the door that is before this fight.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="3" importance="3">
+					<tip-title>Rigom only needs to stay under Samarog when Guldhem is above 30% health.</tip-title>
+					<tip-desc>
+						<p>
+							Guldhem stops being damageable at 66% and 33% of his health. The damage to him starts being
+							redirected to Rigom. After he dies, he explodes and if this explosion happens under Samarog,
+							Guldhem is damageable again. 
+						</p>
+						<p>
+							After Guldhem is damageable again after 33%, Rigom doesn't need to be under Samarog, pushing
+							him in again will only slow down the fight. Try not to kill Rigom before Guldhem, however as
+							he will explode again and that attack is rather dangerous.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+
+				<h4>Deimos</h4>
+				<scr-tip usefulness="3" importance="3">
+					<tip-title>Set Character Model Limit to High or higher</tip-title>
+					<tip-desc>
+						<p>
+							Due to many every single hand that spawns being counted towards the character limit, most
+							things can turn invisible, which includes the green circle that is used to teleport to the
+							upper platform.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="0" importance="0">
+					<tip-title>The second platform is above</tip-title>
+					<tip-desc>
+						<p>
+							The platform you teleport to if you stand in a green circle or under 10% is physically above
+							the main platform. If people type into chat, you can see the messages above you.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<h4>Dhuum</h4>
+				<scr-tip usefulness="4" importance="4">
+					<tip-title>The lesser Death Mark is safe to stand in until the green flames form a circle</tip-title>
+					<tip-desc>
+						<p>
+							After Dhuum places his lesser Death Mark on the ground, you can safely enter it again.
+							There are green flames spreading around the edge. Once they form a full circle, the Death
+							Mark will start downing you instantly. This can be used to do a bit more damage when you
+							need to flank, to save a downed player or to recover your soul if you get hit.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="1" importance="1">
+					<tip-title>The Shackles warning border only appears to one shackled player</tip-title>
+					<tip-desc>
+						<p>
+							Do not rely on the warning when you get shackled to another player. Only one of the two
+							players gets this warning.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="1" importance="1">
+					<tip-title>The Enforcers will not hit you if you stand in their hitbox when you are fixated</tip-title>
+					<tip-desc>
+						<p>
+							Before the first Reaper appears, the Enforcers attack a player with a small conical attack
+							that can down people if it is not blinded, blocked or evaded. If you get fixated, you can
+							stay very close to the Enforcer, then it will not attack anymore and just keeps turning around in a
+							silly way.
 						</p>
 					</tip-desc>
 				</scr-tip>
