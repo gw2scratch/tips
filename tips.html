@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Guild Wars 2 Tips</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function() {
+				let cardToggles = document.getElementsByClassName('card-toggle');
+				for (let i = 0; i < cardToggles.length; i++) {
+					cardToggles[i].addEventListener('click', e => {
+						e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
+					});
+				}
+			});
+		</script>
+		<style>
+.card+.card {
+	margin-top: 20px;
+}
+.is-vertical-center {
+	display: flex;
+	align-items: center;
+}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar has-shadow is-primary">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="/">
+					<p class="title">GW2 Scratch</p>
+				</a>
+			</div>
+		</nav>
+		<section class="section">
+			<div class="container">
+				<h1 class="title">Guild Wars 2 Scratch</h1>
+				<div class="content">
+					<blockquote cite="https://wiki.guildwars2.com/wiki/Skritt">
+						<p>Skritt living conditions reflect their lazy nature. The only farms they run are those which require an absolute minimum of work to maintain, so they tend to prefer cooked meat and fungi harvested from underground. They prefer to live in large hollows or caverns, known as "scratches," using rocks and underground passageways to build a safe environment. They do have architectural ability, and build huts or structures within the main area of their hollow out of the items they scavenge. The high concentration of skritt in their scratches means they're at their most intelligent and most dangerous to any attacker.</p>
+						<p>~ Guild Wars 2 Wiki</p>
+					</blockquote>
+
+				<p>GW2 Scratch is a collection of Guild Wars 2 tips, guides and tools that were deemed useful by the Skritt and their friends.</p>
+
+				<h2>Tips</h2>
+				<p> There are many tricks in Guild Wars 2 that are not obvious, not documented properly and can take a
+				long time to figure out. This is an attempt to collect as many as possible and order them. For this
+				reason we have two attributes for each tip: usefulness and importance.
+				</p>
+
+				<p><i>Usefulness</i> is a selfish measure and shows you how much useful this tip is to you.</p>
+
+				<p><i>Importance</i> on the other hand is a measure of how much other players rely on you to know this.</p>
+
+				<p>It is very possible that we have forgotten a trick or maybe don't even know them. There may also be
+				mistakes or outdated information. Any contributions are welcome, feel free to report an issue or even
+				create a pull request.</p> 
+
+				<!-- Tip template:
+				<scr-tip usefulness="5" importance="5">
+					<tip-title>Title</tip-title>
+					<tip-desc>Detailed Description</tip-desc>
+				</scr-tip>
+				-->
+
+				<h3>Newcomer Tips</h3>
+				<scr-tip usefulness="5" importance="2">
+					<tip-title>World selection</tip-title>
+					<tip-desc>TODO: Worlds that are selected during account creation are only used in WvW...</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="5" importance="4">
+					<tip-title>Dodging and evading attacks</tip-title>
+					<tip-desc>
+						<p>Guild Wars 2 has a combat system in which completely avoiding damage is by far the most
+						efficient strategy. Many skills are evades, blocks and similar. You can dodge as long as you
+						have enough endurance which makes you invulnerable to all attacks.  You can apply <i>Aegis</i>,
+						a boon that blocks the next attack you get hit by.</p>
+
+						<p>Being good at avoiding attacks allows you to play with more offensive gear. Most attacks have
+						tells you should be looking out for; if you see an enemy lifting their weapon they are likely to
+						do an attack of some kind. Many attacks have <em>telegraphs</em> on the floor that show you
+						where the attack will land. Dodging attacks is very important if you want to survive in higher
+						end content. Tanking every single hit makes it either harder for you to survive or harder for
+						healers to sustain you.</p>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="5" importance="3">
+					<tip-title>Deposit to storage</tip-title>
+					<tip-desc>
+						<p>The account vault not only contains a bank that allows you to store any items, it also
+						contains a <em>Material Storage</em> that can by default store up to 250 of each material (may
+						be increased by purchasing Storage Expanders).</p>
+						<p>Unlike the bank, any materials in your inventory can be deposited to the storage from any
+						place in the world. If you right-click a material, you can then click <em>Deposit Material</em>
+						to deposit it to the Material Storage. If the option is grey, then your material storage for
+						this item is full.</p>
+						<!-- TODO: Add screenshot -->
+						<p>You can also deposit all materials by clicking the gear icon in the top right of the
+						inventory and selecting <em>Deposit All Materials</em>. This will ignore items in invisible
+						bags and items that won't fit into the storage.</p>
+						<!-- TODO: Add screenshot -->
+					</tip-desc>
+				</scr-tip>
+
+
+				<h3>General Tips</h3>
+				<scr-tip usefulness="5" importance="5">
+					<tip-title>Defiance Bars</tip-title>
+					<tip-desc>TODO</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="5" importance="3">
+					<tip-title>Map instances and LFG system</tip-title>
+					<tip-desc>TODO</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="4" importance="4">
+					<tip-title>Nourishment and utility consumables</tip-title>
+					<tip-desc>TODO</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="5" importance="2">
+					<tip-title>Salvage All</tip-title>
+					<tip-desc>
+						Right-clicking on a salvaging kit or tool allows you to automatically salvage items of specified
+						qualities.
+						<!-- TODO: Add screenshot -->
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="5" importance="2">
+					<tip-title>Open all containers in a stack</tip-title>
+					<tip-desc>
+						Right-clicking on a stack of containers usually offers an option to Open all. This process will
+						stop if your inventory gets full.
+						<!-- TODO: Add screenshot -->
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="4" importance="1">
+					<tip-title>
+						The official&nbsp;<a href="https://wiki.guildwars2.com/wiki/Main_Page">Guild Wars 2 Wiki</a>
+					</tip-title>
+					<tip-desc>
+						<p>An <a href="https://wiki.guildwars2.com/wiki/Main_Page">official wiki</a> is hosted by
+						ArenaNet that any player can contribute to.</p>
+						<p>The wiki contains information about maps, skills, items... pretty much anything in the game.
+						It is written and maintained by players.</p>
+						<p>If you are willing to contribute, you may also be interested in the <i>On Wiki of Gold</i>
+						project. <a
+						href="https://wiki.guildwars2.com/wiki/Guild_Wars_2_Wiki:Projects/On_Wiki_of_Gold">On Wiki of
+							Gold</a> is a project that rewards you with in-game gold and gems for contributing to
+						articles that are a part of the listed sets on its page.</p>
+
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="4" importance="1">
+					<tip-title>The <code>/wiki</code> command</tip-title>
+					<tip-desc>
+						<p>If you type <code>/wiki &lt;keyword&gt;</code> command in the chat window, the game will open
+						a browser window with the wiki page for the keyword you type in.</p>
+						<p>This allows you to quickly find out information about game content.</p>
+						<p>Example:
+						<!-- TODO: Add screenshot -->
+						</p>
+
+						<p>Not only can you search using text, you can also search by linking items, skins, waypoints,
+						skills and similar. This brings you to the corresponding Guild Wars 2 Wiki article if it
+						exists.</p>
+						<p>Example:
+						<!-- TODO: Add screenshot -->
+						</p>
+
+						<p>You can also search the wiki in other languages by prepending the language code and a colon,
+						like this: <code>/wiki DE:Guild Wars 2</code>.</p>
+
+						<p>There are many useful pages you can reach quickly from the game this way:</p>
+						<ul>
+							<li><code>/wiki ET</code> - Event Timers</li>
+							<li><code>/wiki qal</code> - Quick access links</li>
+							<!-- TODO: Add more -->
+						</ul>
+
+						<p>For more details check out the <a
+							href="https://wiki.guildwars2.com/wiki/Chat_command#Wiki">wiki page</a> for this command</p>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="3" importance="1">
+					<tip-title>Instantly opening reward chests</tip-title>
+					<tip-desc>
+						Right-clicking on a reward chest on the side of your screen will open them without showing any
+						window and just add the rewards to your inventory instantly. This does not work with any chests
+						with a selection of rewards.
+
+						<!-- TODO: Add screenshot -->
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="4" importance="1">
+					<tip-title>Finding unfinished POI/Heart/Vista on the map by hovering.</tip-title>
+					<tip-desc>
+						Hovering over the Point of Interest/Heart/Vista counts on the map shows unfinished ones on the
+						map or scouts in case you don't have the relevant part of the map discovered.
+
+						<!-- TODO: Add screenshot -->
+					</tip-desc>
+				</scr-tip>
+
+				<h3>Useful Settings</h3>
+
+				<h3>Earning gold</h3>
+
+				<h3>Tricks</h3>
+
+				<h3>Interesting, but useless</h3>
+
+				<h3>Useful Addons</h3>
+
+				<h3>Class-specific</h3>
+
+				<h3>Fractals</h3>
+
+				<h3>Raids</h3>
+
+				<h3>PvP</h3>
+
+				<h3>WvW</h3>
+
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="content has-text-centered">
+					<p>Contribute... TODO</p>
+					<p>Contact: gw2scratch@sejsel.cz</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
