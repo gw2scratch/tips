@@ -46,7 +46,8 @@ h4 {
 				<h2>Tips</h2>
 				<p> There are many tricks in Guild Wars 2 that are not obvious, not documented properly and can take a
 				long time to figure out. This is an attempt to collect as many as possible and order them. For this
-				reason we have two attributes for each tip: usefulness and importance.
+				reason we have two attributes for each tip: usefulness and importance. Both scale from 5 (very
+				useful/important) to 1 (not much useful/important).
 				</p>
 
 				<p><i>Usefulness</i> is a selfish measure and shows you how much useful this tip is to you.</p>
@@ -167,6 +168,32 @@ h4 {
 					</tip-desc>
 				</scr-tip>
 
+				<scr-tip usefulness="5" importance="4">
+					<tip-title>Food and utility consumables</tip-title>
+					<tip-desc>
+						<p>
+						Food and utilities are consumables that can be used to temporarily increase your stats. Eating
+						Food grants a Nourishment effect, using an Utility grants an Enhancement effect. You can only
+						have one of each at the same time, using another food/utility consumable will overwrite the effect.
+						</p>
+
+						<p>
+						The amount of stats gained from food is non-trivial and it is common decency to use food and
+						utilities in end-game content. The best food is usually rather expensive, but there are
+						typically cheaper variants.
+						</p>
+
+						<p>
+						There are also many very cheap foods that are a good choice for playing in open world. Check the <a
+							href="https://wiki.guildwars2.com/wiki/Food">wiki list of foods</a> and <a
+						    href="https://wiki.guildwars2.com/wiki/Utility_item">utilities</a> and see for yourself if
+					    any of those would be helpful to you. If you are leveling a character, you may be interested in
+					    the extra experience gain as well. Some foods offer a higher experience bonus than others.
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+
 				<scr-tip usefulness="5" importance="3">
 					<tip-title>Deposit to storage</tip-title>
 					<tip-desc>
@@ -195,38 +222,6 @@ h4 {
 					</tip-desc>
 				</scr-tip>
 
-				<scr-tip usefulness="4" importance="4">
-					<tip-title>Linking items, skins, waypoints, skills</tip-title>
-					<tip-desc>
-						<p>
-							If you hold Shift and left-click on an item, a hoverable link will be inserted in your
-							chatbox. If you hold Ctrl instead, a message containing only the link will be sent.
-						</p>
-						<figure>
-							<img src="images/link_item.jpg" alt="Hovering over a linked item" />
-							<figcaption>Hovering over a linked item</figcaption>
-
-						<figure>
-							<img src="images/link_waypoint.jpg" alt="Hovering over a linked waypoint" />
-							<figcaption>Hovering over a linked waypoint. Clicking will open the map at the waypoint.</figcaption>
-						</figure>
-						</figure>
-					</tip-desc>
-				</scr-tip>
-
-				<scr-tip usefulness="3" importance="2">
-					<tip-title>Separating item stacks</tip-title>
-					<tip-desc>
-						<p>
-							If you hold Alt while dragging items in your inventory, you will be prompted to input a
-							stack size, this way you can split stacks into multiple.
-						</p>
-						<!-- TODO: Screenshot -->
-					</tip-desc>
-				</scr-tip>
-
-
-				<h3>General Tips</h3>
 				<scr-tip usefulness="5" importance="3">
 					<tip-title>Map instances and the&nbsp;<abbr title="Looking for Group">LFG</abbr>&nbsp;system</tip-title>
 					<tip-desc>
@@ -270,31 +265,87 @@ h4 {
 					</tip-desc>
 				</scr-tip>
 
-				<scr-tip usefulness="5" importance="4">
-					<tip-title>Food and utility consumables</tip-title>
+				<scr-tip usefulness="4" importance="4">
+					<tip-title>Linking items, skins, waypoints, skills</tip-title>
 					<tip-desc>
 						<p>
-						Food and utilities are consumables that can be used to temporarily increase your stats. Eating
-						Food grants a Nourishment effect, using an Utility grants an Enhancement effect. You can only
-						have one of each at the same time, using another food/utility consumable will overwrite the effect.
+							If you hold Shift and left-click on an item, a hoverable link will be inserted in your
+							chatbox. If you hold Ctrl instead, a message containing only the link will be sent
+							instantly.
 						</p>
+						<figure>
+							<img src="images/link_item.jpg" alt="Hovering over a linked item" />
+							<figcaption>Hovering over a linked item</figcaption>
 
+						<figure>
+							<img src="images/link_waypoint.jpg" alt="Hovering over a linked waypoint" />
+							<figcaption>Hovering over a linked waypoint. Clicking will open the map at the waypoint.</figcaption>
+						</figure>
+						</figure>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="4" importance="1">
+					<tip-title>Playing story instances with friends</tip-title>
+					<tip-desc>
+						<p>All story instances can be played with other players in your party. The enemies usually do
+						not scale with more players so having others help you can be very useful for some achievements
+						and instances. Simply enter the instance and other players in your group in the same map will
+						get a prompt to join you. If you are at the same instance in your story as the instance owner
+						you will get a prompt to accept progress.</p>
+
+						<p>In some instances you get a special role as a guest, in many you won't be able to talk to
+						most NPCs and you will only see some of the dialog of the instance owner.</p>
+
+						<article class="message is-danger">
+						  <div class="message-header">
+							<p>Bug warning</p>
+						  </div>
+						  <div class="message-body">
+							  <p>
+								  Do not accept progress in Personal Story missions where the instance owner
+								  chooses the next path to take. You will not get the same choice. In some instances,
+								  you will in fact get no choice at all and a huge part of your story will be skipped
+								  altogether (most notably "your biggest fear" part of the story). This will lead to
+								  random NPCs appearing in the story who you won't even know at all.
+							  </p>
+							  <p>
+								  Because of changes to the story system in Living World Season 2, this is not a problem
+								  in any other content than the Personal Story that spans from your level 10 to 80. No
+								  expansion stories or Living World instances are affected by this.
+							  </p>
+						  </div>
+						</article>
+					</tip-desc>
+				</scr-tip>
+
+				<scr-tip usefulness="3" importance="2">
+					<tip-title>Separating item stacks</tip-title>
+					<tip-desc>
 						<p>
-						The amount of stats gained from food is non-trivial and it is common decency to use food and
-						utilities in end-game content. The best food is usually rather expensive, but there are
-						typically cheaper variants.
+							If you hold Alt while dragging items in your inventory, you will be prompted to input a
+							stack size, this way you can split stacks into multiple.
 						</p>
+						<!-- TODO: Screenshot -->
+					</tip-desc>
+				</scr-tip>
 
+				<scr-tip usefulness="3" importance="1">
+					<tip-title>Invisible Bags</tip-title>
+					<tip-desc>
 						<p>
-						There are also many very cheap foods that are a good choice for playing in open world. Check the <a
-							href="https://wiki.guildwars2.com/wiki/Food">wiki list of foods</a> and <a
-						    href="https://wiki.guildwars2.com/wiki/Utility_item">utilities</a> and see for yourself if
-					    any of those would be helpful to you. If you are leveling a character, you may be interested in
-					    the extra experience gain as well. Some foods offer a higher experience bonus than others.
+							There are multiple types of bags available. With some, specific items will fix those bags
+							before other empty spaces, but the most useful one is an invisible bag.
+						</p>
+						<p>
+							Items in an invisible bag cannot be sold, automatically salvaged, do not appear in vendor
+							menus and will not move if your inventory is sorted. This allows you to safely store armor,
+							unidentified gear and similar items you may not want to accidentally destroy.
 						</p>
 					</tip-desc>
 				</scr-tip>
 
+				<h3>General Tips</h3>
 				<scr-tip usefulness="5" importance="2">
 					<tip-title>Salvage All</tip-title>
 					<tip-desc>
@@ -330,6 +381,21 @@ h4 {
 						</div>
 					</tip-desc>
 				</scr-tip>
+
+				<scr-tip usefulness="4" importance="4">
+					<tip-title>Bind the Special Action to an easy-to-press button.</tip-title>
+					<tip-desc>
+						<p>
+							Special Action skills are not only used for many mechanics in raids and fractals, they are
+							also very useful in the open world and in story missions. You need to be able to press it
+							easily and reliably in group content and it won't hurt to have it easily accessible for
+							yourself as well.
+
+							<!-- TODO: Add Special Action screenshot -->
+						</p>
+					</tip-desc>
+				</scr-tip>
+
 
 				<scr-tip usefulness="4" importance="1">
 					<tip-title>
@@ -408,40 +474,6 @@ h4 {
 						the channeling skill, which allows you to finish those hearts faster.</p>
 						<p>Newly introduced renown hearts are designed with this workaround in mind, so this will
 						usually not work there.</p>
-					</tip-desc>
-				</scr-tip>
-
-				<scr-tip usefulness="4" importance="1">
-					<tip-title>Playing story instances with friends</tip-title>
-					<tip-desc>
-						<p>All story instances can be played with other players in your party. The enemies usually do
-						not scale with more players so having others help you can be very useful for some achievements
-						and instances. Simply enter the instance and other players in your group in the same map will
-						get a prompt to join you. If you are at the same instance in your story as the instance owner
-						you will get a prompt to accept progress.</p>
-
-						<p>In some instances you get a special role as a guest, in many you won't be able to talk to
-						most NPCs and you will only see some of the dialog of the instance owner.</p>
-
-						<article class="message is-danger">
-						  <div class="message-header">
-							<p>Bug warning</p>
-						  </div>
-						  <div class="message-body">
-							  <p>
-								  Do not accept progress in Personal Story missions where the instance owner
-								  chooses the next path to take. You will not get the same choice. In some instances,
-								  you will in fact get no choice at all and a huge part of your story will be skipped
-								  altogether (most notably "your biggest fear" part of the story). This will lead to
-								  random NPCs appearing in the story who you won't even know at all.
-							  </p>
-							  <p>
-								  Because of changes to the story system in Living World Season 2, this is not a problem
-								  in any other content than the Personal Story that spans from your level 10 to 80. No
-								  expansion stories or Living World instances are affected by this.
-							  </p>
-						  </div>
-						</article>
 					</tip-desc>
 				</scr-tip>
 
@@ -577,21 +609,6 @@ h4 {
 						You can close the Mystic Forge window after you click the <em>Forge</em> button and interact
 						with the forge again to skip the animation of items being forged together. This allows you to
 						forge significantly faster.
-						</p>
-					</tip-desc>
-				</scr-tip>
-
-				<scr-tip usefulness="3" importance="1">
-					<tip-title>Invisible Bags</tip-title>
-					<tip-desc>
-						<p>
-							There are multiple types of bags available. With some, specific items will fix those bags
-							before other empty spaces, but the most useful one is an invisible bag.
-						</p>
-						<p>
-							Items in an invisible bag cannot be sold, automatically salvaged, do not appear in vendor
-							menus and will not move if your inventory is sorted. This allows you to safely store armor,
-							unidentified gear and similar items you may not want to accidentally destroy.
 						</p>
 					</tip-desc>
 				</scr-tip>
@@ -762,6 +779,20 @@ h4 {
 
 				<h3>Interesting, but useless</h3>
 
+				<scr-tip usefulness="1" importance="0">
+					<tip-title>Targeting emotes</tip-title>
+					<tip-desc>
+						<p>
+							You can target emotes by selecting a target and using an emote with <code>@</code>. Some
+							NPCs may react to this. Ever tried threatening a crab?
+						</p>
+						<p>
+							Example: <code>/cheer @</code>
+						</p>
+					</tip-desc>
+				</scr-tip>
+
+
 				<scr-tip usefulness="0" importance="0">
 					<tip-title>You can click on the endurance bar to dodge</tip-title>
 					<tip-desc>
@@ -807,18 +838,6 @@ h4 {
 							<img src="images/age_deaths.jpg" alt="The result of /age and /deaths commands" />
 							<figcaption>The statistics from <code>/age</code> and <code>/deaths</code> commands</figcaption>
 						</figure>
-					</tip-desc>
-				</scr-tip>
-
-				<scr-tip usefulness="1" importance="0">
-					<tip-title>Targeting emotes</tip-title>
-					<tip-desc>
-						<p>
-							You can target emotes by selecting a target and using an emote with <code>@</code>.
-						</p>
-						<p>
-							Example: <code>/cheer @</code>
-						</p>
 					</tip-desc>
 				</scr-tip>
 
@@ -972,7 +991,10 @@ h4 {
 					<tip-title>Using <code>/gg</code> to reset cooldowns</tip-title>
 					<tip-desc>
 						<p>
-							If everybody is dead at the same time, cooldowns get reduced by a significant amount of time.
+							If everybody is dead at the same time, cooldowns get reduced by 20 minutes. This is enough
+							for most skills, but some items, such as the <a
+								href="https://wiki.guildwars2.com/wiki/White_Mantle_Portal_Device">White Mantle Portal
+							Device</a> may require two mass suicides for a complete cooldown reset.
 						</p>
 					</tip-desc>
 				</scr-tip>
@@ -1013,16 +1035,6 @@ h4 {
 						<p>
 							Killing yourself is by far the fastest method to move to the current boss if you are further
 							in the raid wing.
-						</p>
-					</tip-desc>
-				</scr-tip>
-
-				<scr-tip usefulness="5" importance="5">
-					<tip-title>Bind the Special Action to an easy-to-press button.</tip-title>
-					<tip-desc>
-						<p>
-							Special Actions are used for many mechanics in raids and you need to be able to press it
-							easily and reliably.
 						</p>
 					</tip-desc>
 				</scr-tip>
@@ -1082,8 +1094,8 @@ h4 {
 						</p>
 						<p>
 							After Guldhem is damageable again after 33%, Rigom doesn't need to be under Samarog, pushing
-							him in again will only slow down the fight. Try not to kill Rigom before Guldhem, however as
-							he will explode again and that attack is rather dangerous.
+							him in again will only slow down the fight. Try not to kill Rigom before Guldhem, however,
+							as he will explode again and that attack is rather dangerous.
 						</p>
 					</tip-desc>
 				</scr-tip>
@@ -1094,9 +1106,9 @@ h4 {
 					<tip-title>Set Character Model Limit to High or higher</tip-title>
 					<tip-desc>
 						<p>
-							Due to many every single hand that spawns being counted towards the character limit, most
-							things can turn invisible, which includes the green circle that is used to teleport to the
-							upper platform.
+							Due to every single hand that spawns being counted towards the character limit, most things
+							can turn invisible, which includes the green circle that is used to teleport to the upper
+							platform.
 						</p>
 					</tip-desc>
 				</scr-tip>
