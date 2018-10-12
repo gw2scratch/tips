@@ -33,5 +33,17 @@ result = re.sub('<scr-tip.*?usefulness=[\'"](.*?)[\'"].*?importance=[\'"](.*?)[\
     </div>
 </div>""", data, flags=re.DOTALL)
 
+result = re.sub('<scr-contribute>',
+        r"""<div class="box">
+                <div class="media">
+                    <div class="media-left">
+                        <img class="image is-32x32" src="../images/GitHub-Mark-120px-plus.png" alt="GitHub Mark">
+                    </div>
+                    <div class="media-content is-size-5 has-text-centered">
+                        <a href="https://github.com/gw2scratch/tips">Contribute on GitHub</a>
+                    </div>
+                </div>
+            </div>""", result)
+
 with open(outputFilepath, 'w') as outputFile:
     outputFile.write(result)

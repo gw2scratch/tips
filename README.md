@@ -25,6 +25,17 @@ The system implemented by simple regex replace in [convert.py](convert.py). Do n
   <tip-desc>(Detailed Description)</tip-desc>
 </scr-tip>
 ```
+
+## The contribute template
+
+Empty sections contain contribute template which is also replaced in
+[convert.py](convert.py). If adding something to a section with this template,
+remove it.
+
+```html
+<scr-contribute>
+```
+
 ## HTML + CSS
 
 The webpage uses the [Bulma](https://github.com/jgthms/bulma) CSS framework.
