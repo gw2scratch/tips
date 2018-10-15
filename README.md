@@ -5,9 +5,9 @@ http://gw2scratch.com/tips/
 
 ## Contributing
 
-Any kind of contribution is very much welcome. Feel free to create an issue if you find an inaccuracy, a typo or even if you think of something that should be included.
+Any kind of contribution is very much welcome. Feel free to create an issue if you find an inaccuracy, a typo or even if you think of something that should be included. Pull requests are also welcome.
 
-The text of the tips is located in the [tips.html](tips.html) file. Pull requests are also welcome.
+The text of the tips is located in the [tips.html](tips.html) file.
 
 ## The tip template
 
